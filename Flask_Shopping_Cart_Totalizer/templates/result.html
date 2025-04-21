@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Total Price</title>
+</head>
+<body>
+    <h2>🧾 Total Bill</h2>
+    <ul>
+        {% for price in prices %}
+            <li>₹{{ price }}</li>
+        {% endfor %}
+    </ul>
+    <h3>Total: ₹{{ total }}</h3>
+    <a href="/">Go Back</a>
+</body>
+</html>
